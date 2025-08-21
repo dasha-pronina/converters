@@ -1,0 +1,21 @@
+[project]
+name = "lesson-3-2-2"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "dasha",email = "dashapronina02@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13, <3.15"
+dependencies = [
+    "pyqt6 (>=6.9.1,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.15.0"
+
